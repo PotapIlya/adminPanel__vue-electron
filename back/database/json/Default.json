@@ -1,0 +1,4 @@
+{
+  "name":"Default",
+  "columns":
+  [{"inputName":"Id","inputType":"INT","inputCheckbox":false},{"inputName":"dwadw","inputType":"DATE","inputCheckbox":true},{"inputName":"adwadwa","inputType":"VARCHAR","inputCheckbox":true},{"inputName":"dwadwa","inputType":"TEXT","inputCheckbox":false}]}
