@@ -7,13 +7,11 @@ export default {
         })
     },
     SET_ARRAY_ITEMS(state, data){
-        state.json.columns.forEach((item, idx) => {
-            if (idx === data.id) {
-                item.inputCheckbox = data.inputCheckbox;
-                item.inputName = data.inputName;
-                item.inputType = data.inputType;
-            }
-        });
+        state.json.columns[data.id] = {
+            inputName: data.inputName,
+            inputType: data.inputType,
+            inputCheckbox: data.inputCheckbox,
+        }
     },
     SET_JSON_NAME(state, name){
         state.json.name = name;
